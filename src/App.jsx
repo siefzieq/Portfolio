@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Main from "./components/Main/Main.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import { Helmet } from 'react-helmet';
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Navbar />
                 <Main />
             </Router>
+            <Footer/>
         </>
 
     );
