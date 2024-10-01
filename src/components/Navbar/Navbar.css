@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+nav {
+    padding: 1.5rem 8rem; /* Adjusted padding around the navbar */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between logo and list */
+    align-items: center; /* Center items vertically */
+    position: fixed; /* Fixes navbar to the top */
+    left: 0; /* Align to the left of the viewport */
+    right: 0; /* Align to the right of the viewport */
+    z-index: 1000; /* Ensure it appears above other content */
+    color: #ffffff; /* Text color */
+    background-color: rgba(19, 19, 19, 0.85); /* Semi-transparent background */
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif; /* Font settings for logo */
+    font-weight: 700; /* Make the logo bold */
+    font-size: 24px; /* Size for the logo */
+    margin: 0; /* Remove default margin */
+}
+
+.list {
+    font-family: 'Poppins', sans-serif; /* Font settings */
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+    gap: 30px; /* Space between links */
+}
+
+.list li {
+    display: block;
+    background-color: rgba(30, 30, 27, 1); /* Opaque background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px 15px; /* Padding around links */
+    outline: 3px solid #ffffff; /* White outline */
+    outline-offset: 5px; /* Space between outline and background */
+    font-size: 14px; /* Font size */
+}
+
+.list a {
+    color: #F8F8F2; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.list li:hover {
+    background-color: #A7ED10; /* Background color on hover */
+}
+
+.list a:hover {
+    color: #111111; /* Change link color on hover */
+}

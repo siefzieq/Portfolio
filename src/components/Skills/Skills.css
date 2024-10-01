@@ -1,0 +1,84 @@
+body {
+    overflow-x: hidden;
+    background-color: #111111;
+}
+.header-skills{
+    margin-top:100px;
+    padding-left:39%;
+    background-color: #111111;
+}
+.header-skills i{
+    color: #888888;
+    font-size: 65px;
+    padding-left: 40%;
+}
+.header-skills h1 {
+    margin-top: -5px; /* Adjust the value as needed */
+    padding-bottom: 30px;
+    margin-left: 22%;
+}
+.grid-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    padding-bottom: 30px;
+    margin-left: -80px;
+}
+.canvas-2-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    width: 500px;
+    height: 250px;
+    background-color: rgba(30, 30, 27, 100);
+    border-radius: 20px;
+    color: #ffffff;
+    outline: 3px solid #ffffff; /* 3px white outline */
+    outline-offset: 5px; /* Space between the outline and the box */
+    position: relative; /* For future child elements if needed */
+    overflow-x: hidden !important;
+    animation: slide 20s infinite linear;
+}
+.canvas-2-image {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: center; /* Align items vertically */
+    white-space: nowrap;
+}
+.canvas-2-skills img {
+    margin: 0 10px; /* Optional: add some spacing between the icons */
+    width: 80px;
+    height: 80px;
+}
+.canvas-2-skills h2{
+    margin-top: -30px;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-50%); /* Start off-screen to the right */
+    }
+    100% {
+        transform: translateX(-115%); /* Slide into place */
+    }
+}
+.fade-slide-in {
+    opacity: 0;
+    transform: translateY(20px); /* Slide from below */
+    animation: fadeSlideIn 1.5s forwards; /* Adjust duration as needed */
+}
+
+@keyframes fadeSlideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Move to original position */
+    }
+}

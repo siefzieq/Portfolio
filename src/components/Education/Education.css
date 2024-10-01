@@ -1,0 +1,123 @@
+.header-edu {
+    margin-top: 100px;
+    padding-left: 39%;
+}
+
+.header-edu i {
+    color: #888888;
+    font-size: 65px;
+    padding-left: 40%;
+}
+
+.header-edu h1 {
+    margin-top: -5px; /* Adjust the value as needed */
+    padding-bottom: 30px;
+    margin-left: 26%;
+}
+
+.grid-edu {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: 5px 1fr; /* Set fixed width for hr */
+    align-items: start; /* Align content and line vertically */
+    column-gap: 75px; /* Space between the hr and the content */
+    row-gap: 20px; /* Space between the rows */
+    position: relative; /* Make it relative for positioning pseudo-elements */
+}
+
+.vertical-line {
+    width: 5px; /* Vertical line width */
+    height: 100%; /* Default height to 100% of the parent container */
+    max-height: 100vh; /* Prevent it from exceeding the viewport height */
+    background-color: #ffffff; /* Default color */
+    border: none; /* Remove default hr border */
+    margin: 0; /* Reset margin for proper alignment */
+    position: relative; /* To place circles relative to the line */
+    transition: background-color 0.3s ease, height 0.3s ease; /* Smooth transition for color and height change */
+}
+
+/* Add a class for the changed color */
+.vertical-line.scrolled {
+    background-color: #A7ED10; /* Color after scroll */
+}
+
+.canvas-2-edu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    width: 700px;
+    height: 200px;
+    background-color: rgba(30, 30, 27, 100);
+    border-radius: 20px;
+    color: #ffffff;
+    outline: 3px solid #ffffff; /* 3px white outline */
+    outline-offset: 5px; /* Space between the outline and the box */
+    overflow: hidden; /* Hide any overflow */
+    position: relative; /* For future child elements if needed */
+}
+
+.canvas-2-edu p {
+    padding-left: 50px;
+    margin-bottom: -4px;
+}
+
+.canvas-2-edu h2 {
+    margin-bottom: -4px;
+    margin-top: -10px;
+    padding-left: 50px;
+}
+
+.canvas-2-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 40px; /* Adds spacing between the items */
+    position: relative; /* Relative to position the pseudo-element circle */
+}
+
+h3 {
+    margin-bottom: -10px;
+    background-color: rgba(30, 30, 27, 100);
+    border-radius: 10px;
+    width: 100px;
+    padding: 15px;
+    outline: 3px solid #ffffff; /* 3px white outline */
+    outline-offset: 5px; /* Space between the outline and the box */
+    overflow: hidden; /* Hide any overflow */
+    position: relative; /* For future child elements if needed */
+}
+
+.canvas-2-project a {
+    text-decoration: none;
+    background-color: #A7ED10;
+    color: #111111;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.fade-slide-in {
+    opacity: 0;
+    transform: translateY(20px); /* Slide from below */
+    animation: fadeSlideIn 1.5s forwards; /* Adjust duration as needed */
+}
+
+@keyframes fadeSlideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Move to original position */
+    }
+}
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%); /* Start off the screen to the right */
+        opacity: 0; /* Make it invisible at the start */
+    }
+    100% {
+        transform: translateX(0); /* End at its normal position */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+/* Apply the animation when the element is visible */
+.slide-in-right {
+    animation: slideInRight 1.5s ease-out forwards; /* 1s animation, easing out for smooth effect */
+    opacity: 0; /* Ensure it's invisible before the animation starts */
+}

@@ -1,0 +1,139 @@
+.header-project{
+    margin-top:100px;
+    padding-left:39%;
+}
+.header-project i{
+    color: #888888;
+    font-size: 65px;
+    padding-left: 40%;
+}
+.header-project h1 {
+    margin-top: -5px; /* Adjust the value as needed */
+    padding-bottom: 30px;
+    margin-left: 30%;
+}
+.grid-edu{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    row-gap: 75px;
+    padding-bottom: 30px;
+    margin-left: -80px;
+}
+.canvas-2-project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    width: 450px;
+    height: 700px;
+    background-color: rgba(30, 30, 27, 100);
+    border-radius: 20px;
+    color: #ffffff;
+    outline: 3px solid #ffffff; /* 3px white outline */
+    outline-offset: 5px; /* Space between the outline and the box */
+    overflow: hidden; /* Hide any overflow */
+    position: relative; /* For future child elements if needed */
+}
+.canvas-2-project span{
+    padding-left: 30px;
+    color: #D3D3D3;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+.canvas-2-project p{
+    padding-left: 30px;
+    padding-right: 35px;
+    text-align: justify;
+    font-size: 14px;
+}
+.button-container{
+    gap: 20px;
+}
+.button-edu{
+    width: 120px;
+    background-color:#ffffff ;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111111;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px 5px;
+}
+.url-container{
+    padding-top:20px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.url-container i{
+    font-size: 25px;
+    margin-left: -160px;
+    vertical-align: middle;
+    color: #A7ED10;
+}
+.url-container a{
+    color: #A7ED10;
+    background-color: transparent;
+    outline: 3px solid #A7ED10;
+    margin-right: 20px; /* Optional: Adds space between links */
+
+}
+.url-container a:hover{
+    outline: 2px solid transparent;
+    color: #111111;
+    background-color: #A7ED10;
+}
+.url-container i:hover{
+    color: #111111;
+}
+.button-container button{
+    cursor: auto;
+}
+.fade-slide-in {
+    opacity: 0;
+    transform: translateY(20px); /* Slide from below */
+    animation: fadeSlideIn 1.5s forwards; /* Adjust duration as needed */
+}
+
+@keyframes fadeSlideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Move to original position */
+    }
+}
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%); /* Start off the screen to the right */
+        opacity: 0; /* Make it invisible at the start */
+    }
+    100% {
+        transform: translateX(0); /* End at its normal position */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+/* Apply the animation when the element is visible */
+.slide-in-right {
+    animation: slideInRight 1.5s ease-out forwards; /* 1s animation, easing out for smooth effect */
+    opacity: 0; /* Ensure it's invisible before the animation starts */
+}
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%); /* Start off the screen to the right */
+        opacity: 0; /* Make it invisible at the start */
+    }
+    100% {
+        transform: translateX(0); /* End at its normal position */
+        opacity: 1; /* Fully visible */
+    }
+}
+.slide-in-left {
+    animation: slideInLeft 1.5s ease-out forwards; /* 1s animation, easing out for smooth effect */
+    opacity: 0; /* Ensure it's invisible before the animation starts */
+}
+

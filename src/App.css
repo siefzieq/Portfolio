@@ -1,0 +1,12 @@
+body{
+   background-color: #111111 !important;
+}
+/* App.css */
+
+.content {
+   position: relative; /* Necessary for the sliding effect */
+   overflow: hidden; /* Prevents showing parts of the components during transition */
+}
+
+
+

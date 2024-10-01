@@ -1,0 +1,94 @@
+.header-exp{
+    margin-top:100px;
+    padding-left:39%;
+}
+.header-exp i{
+    color: #888888;
+    font-size: 65px;
+    padding-left: 40%;
+}
+.header-exp h1 {
+    margin-top: -5px; /* Adjust the value as needed */
+    padding-bottom: 30px;
+    margin-left: 25%;
+}
+.grid-exp {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    padding-bottom: 30px;
+    margin-left: -80px;
+    grid-template-rows: repeat(3, 55px); /* Create 3 equal rows */
+    row-gap: 30px;
+    margin-top: 220px;
+}
+.canvas-1-exp {
+    background-color: rgba(30, 30, 27, 100);
+    height: 55px;
+    width: 230px;
+    border-radius: 10px;
+    outline: 3px solid #ffffff; /* 3px white outline */
+    outline-offset: 5px; /* Space between the outline and the box */
+    margin-left: 150px;
+    display: flex; /* Enable flexbox for vertical centering */
+    align-items: center; /* Center children vertically */
+
+}
+.canvas-1-exp h4 {
+    margin: 0; /* Remove default margin */
+    padding-left: 15px;
+}
+
+.canvas-2-exp {
+    background-color: rgba(30, 30, 27, 100);
+    width: 800px;
+    border-radius: 10px;
+    outline: 3px solid #ffffff; /* 3px white outline */
+    outline-offset: 5px; /* Space between the outline and the box */
+    display: flex; /* Enable flexbox for vertical centering */
+    align-items: center; /* Center children vertically */
+    justify-content: center; /* Center content horizontally */
+}
+.l-list-exp{
+    width: auto;
+    outline: none;
+    border: none;
+    padding-bottom: 10px;
+}
+@keyframes fadeSlideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Move to original position */
+    }
+}
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%); /* Start off the screen to the right */
+        opacity: 0; /* Make it invisible at the start */
+    }
+    100% {
+        transform: translateX(0); /* End at its normal position */
+        opacity: 1; /* Fully visible */
+    }
+}
+.slide-in-right {
+    animation: slideInRight 1.5s ease-out forwards; /* 1s animation, easing out for smooth effect */
+    opacity: 0; /* Ensure it's invisible before the animation starts */
+}
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%); /* Start off the screen to the right */
+        opacity: 0; /* Make it invisible at the start */
+    }
+    100% {
+        transform: translateX(0); /* End at its normal position */
+        opacity: 1; /* Fully visible */
+    }
+}
+.slide-in-left {
+    animation: slideInLeft 1.5s ease-out forwards; /* 1s animation, easing out for smooth effect */
+    opacity: 0; /* Ensure it's invisible before the animation starts */
+}
