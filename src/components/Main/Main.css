@@ -1,6 +1,7 @@
 body {
     background-color: #F9FAFB;
     font-family: Poppins;
+    font-size: 16px;
 }
 .header{
     padding-left: 20px;
@@ -97,6 +98,7 @@ h2 {
     min-height: 100vh; /* Full height of the viewport */
     box-sizing: border-box; /* Ensure padding is included in height */
     padding-left: 25%;
+    padding-right: 25%
 }
 .bento-grid {
     display: grid;
@@ -213,10 +215,9 @@ h2 {
     color:#111111;
 }
 .header-main{
-    font-size: 20px;
     margin-left: 13%;
     margin-top: 17%;
-    margin-bottom: -200px;
+    margin-bottom: -150px;
 }
 .wave-emoji {
     display: inline-block;
