@@ -2,6 +2,8 @@ body {
     background-color: #F9FAFB;
     font-family: Poppins;
     font-size: 16px;
+    padding-left: 10%;
+    padding-right: 25%;
 }
 .header{
     padding-left: 20px;
@@ -215,9 +217,9 @@ h2 {
     color:#111111;
 }
 .header-main{
-    margin-left: 13%;
     margin-top: 17%;
     margin-bottom: -150px;
+    font-size: 12px;
 }
 .wave-emoji {
     display: inline-block;
