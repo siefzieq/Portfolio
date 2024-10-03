@@ -11,6 +11,7 @@ function App() {
             <Router>
                 <Helmet>
                     <title>Hasif Zikry</title>
+                    <link rel="icon" href="/hasif.jpg" />
                 </Helmet>
                 <Navbar />
                 <Main />

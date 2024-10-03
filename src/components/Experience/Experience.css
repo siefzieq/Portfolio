@@ -1,6 +1,6 @@
 .header-exp{
     margin-top:100px;
-    padding-left:39%;
+    padding-left:19%;
 }
 .header-exp i{
     color: #888888;
@@ -10,7 +10,7 @@
 .header-exp h1 {
     margin-top: -5px; /* Adjust the value as needed */
     padding-bottom: 30px;
-    margin-left: 25%;
+    margin-left: 28%;
 }
 .grid-exp {
     display: grid;
@@ -32,14 +32,13 @@
     border-radius: 10px;
     outline: 3px solid #ffffff; /* 3px white outline */
     outline-offset: 5px; /* Space between the outline and the box */
-    margin-left: 150px;
+    margin-left: 20%;
     display: flex; /* Enable flexbox for vertical centering */
     align-items: center; /* Center children vertically */
-
 }
 .canvas-1-exp h4 {
     margin: 0; /* Remove default margin */
-    padding-left: 15px;
+    padding-left: 12px;
 }
 
 .canvas-2-exp {
@@ -50,6 +49,7 @@
     outline-offset: 5px; /* Space between the outline and the box */
     display: flex; /* Enable flexbox for vertical centering */
     align-items: center; /* Center children vertically */
+    margin-left: 6%;
     justify-content: center; /* Center content horizontally */
 }
 .l-list-exp{

@@ -54,7 +54,7 @@ const Main = () => {
                         </a>
                     </div>
                     <div className="item-6">
-                        <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="icon-link">
+                        <a href="https://twitter.com/siefzieq" target="_blank" rel="noopener noreferrer" className="icon-link">
                             <i className="bi bi-twitter" style={{ fontSize: '32px' }}></i>
                         </a>
                     </div>

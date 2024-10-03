@@ -1,6 +1,6 @@
 .header-edu {
     margin-top: 100px;
-    padding-left: 39%;
+    padding-left: 19%;
 }
 
 .header-edu i {
@@ -12,7 +12,7 @@
 .header-edu h1 {
     margin-top: -5px; /* Adjust the value as needed */
     padding-bottom: 30px;
-    margin-left: 26%;
+    margin-left: 30%;
 }
 
 .grid-edu {
@@ -27,12 +27,12 @@
 .vertical-line {
     width: 5px; /* Vertical line width */
     height: 100%; /* Default height to 100% of the parent container */
-    max-height: 100vh; /* Prevent it from exceeding the viewport height */
+    max-height: 200vh; /* Prevent it from exceeding the viewport height */
     background-color: #ffffff; /* Default color */
     border: none; /* Remove default hr border */
-    margin: 0; /* Reset margin for proper alignment */
     position: relative; /* To place circles relative to the line */
     transition: background-color 0.3s ease, height 0.3s ease; /* Smooth transition for color and height change */
+    margin-left: 60%;
 }
 
 /* Add a class for the changed color */
@@ -71,6 +71,7 @@
     flex-direction: column; /* Stack elements vertically */
     gap: 40px; /* Adds spacing between the items */
     position: relative; /* Relative to position the pseudo-element circle */
+    margin-left: -15%;
 }
 
 h3 {
