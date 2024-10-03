@@ -14,7 +14,7 @@ const Main = () => {
     return (
         <>
             <div className="header-main">
-                <h1>Hello, I am Hasif Zikry <span className="wave-emoji">👋</span></h1>
+                <h1 style={{fontSize:"50px"}}>Hello, I am Hasif Zikry <span className="wave-emoji">👋</span></h1>
             </div>
 
             {/* Grid for profile details */}
