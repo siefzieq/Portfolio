@@ -22,7 +22,7 @@ const Achievements = () =>{
     return(
         <>
             <div className={`header-achieve ${isVisible ? 'fade-slide-in' : ''}`}>
-                <i className="bi bi-trophy"></i>
+                <i className="bi bi-trophy" style={{paddingLeft:"43%"}}></i>
                 <h1>Achievements & Awards</h1>
                 <div className="grid-achieve">
                     <div className="canvas-2">

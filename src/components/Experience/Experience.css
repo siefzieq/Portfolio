@@ -1,6 +1,6 @@
 .header-exp{
     margin-top:100px;
-    padding-left:19%;
+    padding-left:15%;
 }
 .header-exp i{
     color: #888888;
@@ -32,7 +32,7 @@
     border-radius: 10px;
     outline: 3px solid #ffffff; /* 3px white outline */
     outline-offset: 5px; /* Space between the outline and the box */
-    margin-left: 20%;
+    margin-left: 10%;
     display: flex; /* Enable flexbox for vertical centering */
     align-items: center; /* Center children vertically */
 }
@@ -49,7 +49,7 @@
     outline-offset: 5px; /* Space between the outline and the box */
     display: flex; /* Enable flexbox for vertical centering */
     align-items: center; /* Center children vertically */
-    margin-left: 6%;
+    margin-left: 20px;
     justify-content: center; /* Center content horizontally */
 }
 .l-list-exp{

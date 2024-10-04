@@ -59,6 +59,10 @@
     padding-left: 17%;
     color: #888888;
 }
+.header-about{
+    padding-left: 40%;
+    margin-top: -60px;
+}
 
 .header-about h1 {
     margin-top: -10px; /* Adjust the value as needed */
