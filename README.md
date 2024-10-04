@@ -1,6 +1,6 @@
 # 👋 Hey there, Hasif Zikry here!
 
-Welcome to my personal portfolio! 🚀 
+Welcome to my personal portfolio! 🚀 <br>
 I'm a passionate software engineer and data enthusiast who loves creating tech solutions that make a difference. From machine learning models to dynamic web apps, I’m constantly exploring new technologies to build something cool. 😄
 
 ## 🎯 What you'll find here
