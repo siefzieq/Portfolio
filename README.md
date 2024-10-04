@@ -1,8 +1,14 @@
-# React + Vite
+# 👋 Hey there, Hasif Zikry here!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! 🚀 I'm a passionate software engineer and data enthusiast who loves creating tech solutions that make a difference. From machine learning models to dynamic web apps, I’m constantly exploring new technologies to build something cool. 😄
 
-Currently, two official plugins are available:
+## 🎯 What you'll find here
+🖥️ React-powered web applications – Sleek, responsive, and user-friendly!
+🤖 Machine learning projects – Dive into my data science journey!
+🌐 Web development experiments – Pushing the limits of front-end development
+💼 Experience & Skills – Learn about my journey as a developer and the skills I've honed, from C++ and Python to React and Machine Learning
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💼 About me:
+I’m a fresh graduate in Computer Science (Software Engineering) 🎓 with a deep passion for cross-platform coding, solving real-world problems with code, and keeping up with the latest trends in tech. I believe in the power of giving, and that drives my mission to make technology accessible to everyone. ✨
+
+### Copyright Hasif Zikry 2024
