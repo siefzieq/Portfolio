@@ -1,6 +1,7 @@
 # 👋 Hey there, Hasif Zikry here!
 
-Welcome to my personal portfolio! 🚀 I'm a passionate software engineer and data enthusiast who loves creating tech solutions that make a difference. From machine learning models to dynamic web apps, I’m constantly exploring new technologies to build something cool. 😄
+Welcome to my personal portfolio! 🚀 
+I'm a passionate software engineer and data enthusiast who loves creating tech solutions that make a difference. From machine learning models to dynamic web apps, I’m constantly exploring new technologies to build something cool. 😄
 
 ## 🎯 What you'll find here
 🖥️ React-powered web applications – Sleek, responsive, and user-friendly!<br>
@@ -11,4 +12,3 @@ Welcome to my personal portfolio! 🚀 I'm a passionate software engineer and da
 ## 💼 About me:
 I’m a fresh graduate in Computer Science (Software Engineering) 🎓 with a deep passion for cross-platform coding, solving real-world problems with code, and keeping up with the latest trends in tech. I believe in the power of giving, and that drives my mission to make technology accessible to everyone. ✨
 
-### Copyright Hasif Zikry 2024
